@@ -126,7 +126,6 @@ jobs:
       matrix:
         runner:
           - ubuntu-latest
-          - hyperswitch-runners
 
     steps:
       - name: Checkout repository
@@ -187,7 +186,6 @@ jobs:
       matrix:
         runner:
           - ubuntu-latest
-          - hyperswitch-runners
 
     steps:
       - name: Generate a token
